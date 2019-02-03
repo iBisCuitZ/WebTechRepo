@@ -1,0 +1,180 @@
+body { 
+	width: 1366px;
+	height: 768px;
+	font: 100% calibri, sans-serif;
+	line-height: 1.88889;
+	color:rgb(36, 35, 33);
+	background: rgb(201, 86, 86) url(https://i.imgur.com/biIQkYF.png) fixed center center no-repeat; 
+	background-size: cover;
+	margin: 0; 
+	padding: 0;
+	}
+.page-wrapper{
+	position: relative;
+	top: 25px;
+	left: 50px;
+}
+header[role=banner]{
+	height: 175px;
+	width: 1000px;
+	position: fixed;
+	top: -20px;
+	padding-left: 15px;
+	border: 1px  solid black;
+	border-radius: 10px;
+	background: url(http://www.ochaya.co.th/wp-content/uploads/2016/02/header-bg.jpg);
+	z-index: 99999;
+}
+header[role=banner] h1{
+	font-size: 250%;
+}
+
+.intro{
+	padding-top:150px;
+	/* background: white; */
+	width: 1200px;
+}
+.intro h1{
+	color:blueviolet;
+}
+.intro h2{
+	font-size: 100%;
+	color: brown;
+}
+.preamble{
+	width: 500px;
+	/* left: 50px; */
+	font-size: 125%;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: white;
+	top: -10px;
+	background: rgba(35, 92, 250, 0.8);
+	background-size: contain;
+	border: 3px solid black;
+	border-radius: 10px;
+}
+.preamble h3{
+	font-size:150%;
+	color: #00FA9A;
+}
+.summary{
+	color:rgb(240, 224, 2);
+	width: 350px;
+	float: right;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	top: -10px;
+	left: -275px;
+	border: 3px solid black;
+	background: rgba(197, 54, 54, 0.8);
+	border-radius: 15px;
+	/* height:500px; */
+}
+/*======================================================================*/
+div[role=main]{
+	width: 1000px;
+	/* background: green; */
+}
+.explanation{
+	width: 300px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: whitesmoke;
+	background: rgba(171, 62, 92, 0.8);
+	border:3px solid black;
+	border-radius: 15px;
+	float: left;
+}
+.explanation h3{
+	font-size: 150%;
+	color:rgb(29, 247, 0);
+}
+.participation{
+	padding-left: 15px;
+	padding-right: 15px;
+	color: whitesmoke;
+	width: 625px;
+	background: rgba(170, 44, 44, 0.8);
+	float: right;
+	border: 3px solid black;
+	border-radius: 15px;
+}
+.participation h3{
+	font-size: 150%;
+	color:rgb(0, 250, 0)
+}
+.benefits{
+	padding-left: 10px;
+	top: 10px;
+	position: relative;
+	top:3px;
+	color: whitesmoke;
+	background: rgba(150, 114, 38, 0.8);
+	border: 3px solid black;
+	border-radius: 15px;
+	float: right;
+}
+.benefits h3{
+	font-size: 150%;
+	color: rgb(0, 4, 238);
+}
+.requirements{
+	position: relative;
+	top:7px;
+	border: 3px solid black;
+	border-radius: 15px;
+	padding: 10px;
+	color: white;
+	background: rgba(0, 128, 128, .8);
+	float: right;
+}
+.requirements h3{
+	font-size: 150%;
+	color: darkgoldenrod;
+}
+.sidebar .wrapper{
+	background: #00FA9A;
+}
+.design-selection{
+	position: relative;
+	top:9px;
+	padding: 5px;
+	border: 3px solid black;
+	border-radius: 15px;
+	background: rgba(119, 119, 119, 0.8);
+	float: left;
+	color:white;
+}
+.design-archives{
+	position: relative;
+	top:9px;
+	left: 3px;
+	padding: 5px;
+	color:white;
+	border: 3px solid black;
+	border-radius: 15px;
+	background: rgba(119, 119, 119, 0.8);
+	float: left;
+}
+.zen-resources{
+	position: relative;
+	top:9px;
+	left: 6px;
+	padding: 5px;
+	color:white;
+	border: 3px solid black;
+	border-radius: 15px;
+	background: rgba(119, 119, 119, 0.8);
+	float: left;
+}
+.resource{
+	border: 3px solid black;
+	border-radius: 15px;
+	background: rgba(5, 2, 2, 0.8);
+	float: left;
+}
+
+
