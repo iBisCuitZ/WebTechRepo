@@ -1,7 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
 body { 
 	width: 1366px;
 	height: 768px;
-	font: 100% calibri, sans-serif;
+	/* font: 100% calibri, sans-serif; */
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.88889;
 	color:rgb(36, 35, 33);
 	background: rgb(201, 86, 86) url(https://i.imgur.com/biIQkYF.png) fixed center center no-repeat; 
