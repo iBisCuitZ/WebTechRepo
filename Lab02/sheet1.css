@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit");
+body{
+    color:white;
+    background: black;
+    font-family: 'Kanit', sans-serif;
+}
+.colHeader{
+    color:white;
+    font-size: 250%;
+}
+.column1Content{
+    padding: 20px;
+    background: rgba(9, 81, 238, 0.9);
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 300px;
+}
+.column2Content{
+    padding: 20px;
+    background: rgba(16, 211, 25, 0.9);
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 300px;
+}
+.column3Content{
+    padding: 20px;
+    background: rgba(235, 31, 126, 0.9);
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 300px;
+}

@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="sheet2.css">
+        <link rel="stylesheet" type="text/css" href="sheet1.css">
+    </head>    
+    <body>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Index</li>
+                        <li class="breadcrumb-item active"><a href="home.html">Home</a></li>
+            </ol>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="column1Content">
+                        <div class="colHeader">What is Specificity</div>
+                            <div class="col1text"><br>Specificity คือ 
+                                การให้ Priority ของแต่ละเอเลเม้นใน html โดยที่ Element ไหนที่ priority สูงที่สุดจะถูกนำมาใช้งาน</div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="column2Content">
+                        <div class="colHeader">Example</div><br>
+                        <div class="col2text">
+                            <div>จาก ตัวอย่างของเว็ปนี้หน้า index และ Home ใส่ลำดับของ css สลับกัน เมื่อโค้ดเป็นโค้ดเดียวกัน
+                                priority เท่ากัน Web Browser จะอิงจาก ำดับการมา"ก่อน-หลัง"โดยที่โค้ดที่พิมทีหลังจะ Overwrite อันเก่าในตำแหน่งเดียวกัน
+                                <br>
+                            </div>
+                            <div></div>
+                            <img src="indexLink.png"><br>
+                            <img src="homeLink.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="column3Content">
+                        <div class="colHeader"> How to use</div>
+                        <div class="col3text">
+                            <br>
+                            ให้เลือกหน้าจากมุมซ้ายบน โดยทั้ง 2 หน้านั้นใช้โค้ด Html ในส่วน "container" เดียวกัน<br>
+                            <img src="CSS Choice.png" alt=""><br>
+                            โดยความแตกต่างที่เกิดขึ้นเกิดจากลำดับการ Compile CSS ที่มาทีหลังแล้วจะทับกับอันก่อนนั่นเอง
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

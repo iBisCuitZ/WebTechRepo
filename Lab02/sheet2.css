@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Kanit");
+body{
+    color:black;
+    background: url("https://image.freepik.com/free-vector/bright-background-with-dots_1055-3132.jpg");
+    font-family: 'Kanit', sans-serif;
+}
+.colHeader{
+    color: crimson;
+    font-size: 250%;
+}
+.column1Content{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 300px;
+}
+.column2Content{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 300px;
+}
+.column3Content{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 300px;
+}
